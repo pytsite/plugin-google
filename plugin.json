@@ -1,0 +1,17 @@
+{
+  "description": {
+    "en": "Google",
+    "ru": "Google",
+    "uk": "Google"
+  },
+  "url": "https://github.com/pytsite/plugin-google",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": ["google-api-python-client"],
+    "plugins": []
+  }
+}
