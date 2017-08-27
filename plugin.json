@@ -1,8 +1,10 @@
 {
+  "name": "plugins.google",
+  "version": "0.1.1",
   "description": {
-    "en": "Google",
-    "ru": "Google",
-    "uk": "Google"
+    "en": "Google API",
+    "ru": "Google API",
+    "uk": "Google API"
   },
   "url": "https://github.com/pytsite/plugin-google",
   "author": {
