@@ -2,12 +2,6 @@ define(['jquery', 'assetman'], function ($, assetman) {
     var ready = false;
 
     return {
-        getClientId: function () {
-            var meta = $('meta[name=pytsite-google-client-id]');
-            if (meta.length)
-                return meta[0];
-        },
-
         ready: function (func) {
             if (ready) {
                 func(window.gapi);

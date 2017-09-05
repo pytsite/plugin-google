@@ -1,6 +1,6 @@
 {
-  "name": "plugins.google",
-  "version": "0.1.1",
+  "name": "google",
+  "version": "0.2",
   "description": {
     "en": "Google API",
     "ru": "Google API",
@@ -13,7 +13,7 @@
     "url": "https://shepetko.com"
   },
   "requires": {
-    "packages": ["google-api-python-client"],
+    "packages": [],
     "plugins": []
   }
 }
