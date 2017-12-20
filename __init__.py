@@ -12,3 +12,10 @@ def plugin_load():
     assetman.register_package(__name__)
     assetman.t_js(__name__)
     assetman.js_module('pytsite-google', __name__ + '@js/google')
+
+
+def plugin_install():
+    from plugins import assetman
+
+    plugin_load()
+    assetman.build(__name__)
