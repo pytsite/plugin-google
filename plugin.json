@@ -1,6 +1,6 @@
 {
   "name": "google",
-  "version": "1.1.2",
+  "version": "2.0",
   "description": {
     "en": "Google API",
     "ru": "Google API",
@@ -8,15 +8,14 @@
   },
   "url": "https://github.com/pytsite/plugin-google",
   "author": {
-    "name": "Alexander Shepetko",
+    "name": "Oleksandr Shepetko",
     "email": "a@shepetko.com",
     "url": "https://shepetko.com"
   },
   "requires": {
-    "packages": [],
-    "plugins": [
-      "assetman",
-      "jquery"
-    ]
+    "pytsite": "8.x",
+    "plugins": {
+      "assetman": "3.x"
+    }
   }
 }
