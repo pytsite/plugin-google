@@ -1,4 +1,4 @@
-const assetman = require('@pytsite/assetman');
+import assetman from '@pytsite/assetman';
 
 let isReady = false;
 
@@ -16,4 +16,8 @@ function ready(func) {
     }
 }
 
-export {ready}
+const api = {
+    ready: ready,
+};
+
+export default api;
